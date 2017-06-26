@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { spawn } = require('child_process');
+const { spawnSync } = require('child_process');
 const tmp = require('tmp');
 
 module.exports = function(command, commandArguments, { cwd }) {
@@ -17,5 +17,5 @@ module.exports = function(command, commandArguments, { cwd }) {
 		`rm ${name}`;
 	
 	fs.writeFileSync(name, commandString);
-	return spawn('open', [name]);
+	return spawnSync('open', [name]);
 }
