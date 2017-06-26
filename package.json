@@ -21,5 +21,8 @@
     "terminal"
   ],
   "author": "ikatun",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tmp": "0.0.31"
+  }
 }

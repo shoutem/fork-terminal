@@ -1,5 +1,3 @@
-const winTerminalFork = require('./win');
-
 module.exports = function(command, commandArguments, spawnOptions) {
   const platform = process.platform;
   
