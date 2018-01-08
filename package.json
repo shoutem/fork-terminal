@@ -1,5 +1,5 @@
 {
-  "name": "fork-terminal",
+  "name": "@shoutem/fork-terminal",
   "version": "1.0.0",
   "description": "Runs a new process within a new terminal window",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/ikatun/fork-terminal"
+    "url": "github.com/shoutem/fork-terminal"
   },
   "keywords": [
     "new",
@@ -20,8 +20,8 @@
     "detach",
     "terminal"
   ],
-  "author": "ikatun",
-  "license": "ISC",
+  "author": "Shoutem",
+  "license": "BSD",
   "dependencies": {
     "command-exists": "^1.2.2",
     "tmp": "0.0.31"
